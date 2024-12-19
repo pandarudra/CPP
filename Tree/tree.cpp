@@ -13,10 +13,10 @@ struct tree
     ll root;
     tree*left;
     tree*right;
-    tree(tree*left=nullptr,ll root=0,tree*right=nullptr){
-        root=root;
-        left=left;
-        right=right;
+    tree(tree* _left=nullptr,ll _root=0,tree* _right=nullptr){
+        root=_root;
+        left=_left;
+        right=_right;
     }
 };
 
