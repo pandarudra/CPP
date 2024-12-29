@@ -1,22 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define _inf INT_MIN
-#define  inf INT_MAX
-#define _linf LLONG_MIN
-#define  linf LLONG_MAX		
-
 typedef long long ll;
 
+const int MOD=1e9+7;
 
-int main(){
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);cout.tie(0);
 
+void solve(){
     ll t;
     cin>>t;
     while(t--){
-
+        
     }
+}
+
+
+
+int main(){
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    solve();
     return 0;
-}		
+}
+        
