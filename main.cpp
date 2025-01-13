@@ -1,13 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define _inf INT_MIN
-#define  inf INT_MAX
-#define _linf LLONG_MIN
-#define  linf LLONG_MAX		
+constexpr int _inf = INT_MIN ;
+constexpr int  inf = INT_MAX ;
+constexpr ll _linf = LLONG_MIN ;
+constexpr ll  linf = LLONG_MAX	;
+
 #define umap unordered_map 
 #define uset unordered_set 
+#define all(v) (v).begin(),(v).end()
+#define print_vector(v) for(auto &it : v)cout << it << " " ;
 #define newLine cout<<"\n"
+
+
 typedef long long ll;
 
 // Unique hash  for umap and uset
