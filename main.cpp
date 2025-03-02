@@ -10,10 +10,10 @@ constexpr ll BUFFER = 1 ;
 #define umap unordered_map 
 #define uset unordered_set 
 #define all(v) (v).begin(),(v).end()
-#define print_vector(v) for(auto &it : v)cout << it << " " ;
+#define write(v) for(auto &it : v)cout << it << " " ;
 #define rep(data_type,i,a,b) for(data_type i = a ; i < b ; i++)
 #define rev_rep(data_type,i,a,b) for(data_type i = a ; i >= b ; i--)
-#define take_input(v) for(auto &it : v)cin >> it 
+#define read(v) for(auto &it : v)cin >> it 
 #define newLine cout<<"\n"
 
 typedef long long ll;
